@@ -11,5 +11,6 @@ while True:
 
     elif amount < money and amount%100 == 0:
         print(f"{amount}₹ has been widthrawled and you have {money - amount}₹ left in your account.")
+
     else:
         print("Money entered should be a multiple of 100")
