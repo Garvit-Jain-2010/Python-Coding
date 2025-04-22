@@ -3,6 +3,7 @@ y = [16, 17, 18, 19, 20]
 
 for i in x:
     print(i)
+    
 # for i in x:
 #     print(i*i)
 #     print(i*i*i)
@@ -11,6 +12,6 @@ for i in x:
 #     else:
 #         print(f"{i} is odd")
 
-# for i in range(0, 5):
+# for i in range(0, len(x)):
 #     print(f"{x[i]} + {y[i]} = {x[i] + y[i]}")
 
