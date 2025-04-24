@@ -21,3 +21,17 @@
 # add_5 = map(add, num)
 # a = list(add_5)
 # print(a)
+
+# Get length of each string.
+# def len_string(x):
+#     return len(x)
+# name = ["Garvit", "Shobhit", "Raj"]
+# length = map(len_string, name)
+# print(list(length))
+
+# Remove whitespace from each string
+# def trim(c):
+#     return c.strip(" ")
+# dirty_strings = [' a ', ' b  ', '   c']
+# trims = map(trim, dirty_strings)
+# print(list(trims))
