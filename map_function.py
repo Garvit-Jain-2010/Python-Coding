@@ -35,3 +35,9 @@
 # dirty_strings = [' a ', ' b  ', '   c']
 # trims = map(trim, dirty_strings)
 # print(list(trims))
+
+# Convert list of floats to integers
+# def integer(a):
+#     return int(a)
+# floats = [2.3, 3.7, 4.8]
+# print(list(map(integer, floats)))
