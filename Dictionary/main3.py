@@ -41,10 +41,6 @@ for i in range(1, len(x["midterm_marks"])):
     # Percentage of each student.
     print(f"The percentage of {x['student'][i]}: {((x['midterm_marks'][i]['web-development'] + x['midterm_marks'][i]['python'] + x['midterm_marks'][i]['java'] + x['midterm_marks'][i]['c++']) / total_marks) * 100}%")
 
-    # Find the subject in which the student has scored the highest marks
-    highest_subject = max(x["midterm_marks"][i], key=x["midterm_marks"][i].get)
-    print(f"{x['student'][i]} scored the highest in {highest_subject} with {x['midterm_marks'][i][highest_subject]} marks.")
-
 
 for i in x:
     print(f"{i}: {x[i][0]}", end=" ")

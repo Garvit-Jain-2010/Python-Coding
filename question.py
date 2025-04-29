@@ -15,3 +15,6 @@ x = {
     ],  
     "gender":["male", "male", "male", "female", "male", "female", "male", "male", "female", "male"],
 }
+
+def max_num(x):
+    pass
