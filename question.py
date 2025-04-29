@@ -16,5 +16,9 @@ x = {
     "gender":["male", "male", "male", "female", "male", "female", "male", "male", "female", "male"],
 }
 
-def max_num(x):
-    pass
+def max_attendence(x):
+    max_attendence = max(x["attendance"])
+    index = x["attendance"].index(max_attendence)
+    return x["student"][index], max_attendence
+result = max_attendence(x)
+print(result)
