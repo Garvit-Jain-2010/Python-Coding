@@ -21,28 +21,23 @@ x = {
     ],  
 }
 
-# Create lists for each subject
 maths_marks = [student["maths"] for student in x["midterm_marks"]]
 science_marks = [student["science"] for student in x["midterm_marks"]]
 hindi_marks = [student["hindi"] for student in x["midterm_marks"]]
 english_marks = [student["english"] for student in x["midterm_marks"]]
 
-# For Maths
 max_maths = max(maths_marks)
 topper_maths = x["student"][maths_marks.index(max_maths)]
 print(f"Maths: {max_maths} by {topper_maths}")
 
-# For Science
 max_science = max(science_marks)
 topper_science = x["student"][science_marks.index(max_science)]
 print(f"Science: {max_science} by {topper_science}")
 
-# For Hindi
 max_hindi = max(hindi_marks)
 topper_hindi = x["student"][hindi_marks.index(max_hindi)]
 print(f"Hindi: {max_hindi} by {topper_hindi}")
 
-# For English
 max_english = max(english_marks)
 topper_english = x["student"][english_marks.index(max_english)]
 print(f"English: {max_english} by {topper_english}")
