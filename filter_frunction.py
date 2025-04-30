@@ -12,7 +12,7 @@
 
 x = {
     "student":["Garvit", "Shyam", "Mohit", "Geeta", "Shobhit"],
-    "midterm_marks":[
+    "marks":[
         {"maths": 85, "science": 90, "hindi": 80, "english": 89},
         {"maths": 78, "science": 88, "hindi": 75, "english": 80},
         {"maths": 92, "science": 80, "hindi": 85, "english": 87},
@@ -21,10 +21,10 @@ x = {
     ],  
 }
 
-maths_marks = [student["maths"] for student in x["midterm_marks"]]
-science_marks = [student["science"] for student in x["midterm_marks"]]
-hindi_marks = [student["hindi"] for student in x["midterm_marks"]]
-english_marks = [student["english"] for student in x["midterm_marks"]]
+maths_marks = [student["maths"] for student in x["marks"]]
+science_marks = [student["science"] for student in x["marks"]]
+hindi_marks = [student["hindi"] for student in x["marks"]]
+english_marks = [student["english"] for student in x["marks"]]
 
 max_maths = max(maths_marks)
 topper_maths = x["student"][maths_marks.index(max_maths)]
