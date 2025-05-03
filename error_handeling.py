@@ -12,4 +12,7 @@
 #     print(f"An error occurred: {e}")
 
 try:
-    
+    num = int(input("Enter an integer: "))
+    print(f"Your number is {num}.")
+except ValueError:
+    print("Invalid input. Please enter a valid integer.")
