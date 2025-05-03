@@ -6,3 +6,13 @@ data = {
     "source" : ["Tesla", "Amazon", "LVMH", "Microsoft", "Berkshire Hathaway"],
     "industry" : ["Automotive", "Technology", "Fashion & Retail", "Technology", "Finance & Investments"]
 }
+
+def tech_industry(data):
+    tech_people = []
+    for i in range(len(data["name"])):
+        if data["industry"][i] == "Technology":
+            tech_people.append(data["name"][i])
+    return tech_people
+
+for person in tech_industry(data):
+    print(f"{person}")
