@@ -14,3 +14,17 @@ a.insert(2, 99)  # Inserts an element at the specified position in the list
 print(a)
 a.clear()  # Removes all elements from the list
 print(a)
+
+x = {3, 5, 8, 10}
+b = {3, 5, 7, 9}
+
+# c = x.difference(b) 
+# print(c)
+
+# c  = x.__and__(b)
+# print(c)
+
+# Same
+
+c = x.intersection(b)
+print(c)  # More preferable
