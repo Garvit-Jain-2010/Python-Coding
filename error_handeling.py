@@ -25,12 +25,18 @@
 #     print(f"Error: {s}")
 
 
-list = [10, 20, 30, 40, 50]
-try:
-    num = int(input("Enter a number to search: "))
-    if num in list:
-        print(f"{num} is in the list.")
-    else:
-        raise ValueError
-except ValueError:
-    print(f"{num} is not in the list.")
+# list = [10, 20, 30, 40, 50]
+# try:
+#     num = int(input("Enter a number to search: "))
+#     if num in list:
+#         print(f"{num} is in the list.")
+#     else:
+#         raise ValueError
+# except ValueError:
+#     print(f"{num} is not in the list.")
+
+# try:
+#     a = int(input("Enter a number: "))
+#     b = int(input("Enter the second number: "))
+# except:
+#     print("Help me!")
