@@ -24,7 +24,6 @@
 # except Exception as s:
 #     print(f"Error: {s}")
 
-
 # list = [10, 20, 30, 40, 50]
 # try:
 #     num = int(input("Enter a number to search: "))
@@ -36,7 +35,17 @@
 #     print(f"{num} is not in the list.")
 
 # try:
-#     a = int(input("Enter a number: "))
+#     a = int(input("Enter the first number: "))
 #     b = int(input("Enter the second number: "))
 # except:
 #     print("Help me!")
+
+# inventory = ["Apple", "Banana", "Mango", "Pineapple", "Cherry", "Watermelon"]
+# try:
+#     fruit = input("Enter the fruit name: ")
+#     if fruit in inventory:
+#         print(f"{fruit} is present in the storage")
+#     else:
+#         raise ValueError
+# except ValueError:
+#     print("Fruit is not in the storage.")
