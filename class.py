@@ -36,3 +36,15 @@
 
 # a = employee("Alice", 30, 50000)
 # print(f"Bonus for {a.name}: {a.bonus()}")
+
+# 4
+# class car:
+#     def __init__(self, model, year, color):
+#         self.model = model
+#         self.year = year
+#         self.color = color
+#     def main(self):
+#         print(f"Car model: {self.model}, Year: {self.year}, Color: {self.color}")
+
+# a = car("Toyota", 2025, "Red")
+# a.main()
