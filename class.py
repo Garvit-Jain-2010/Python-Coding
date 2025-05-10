@@ -48,3 +48,24 @@
 
 # a = car("Toyota", 2025, "Red")
 # a.main()
+
+# 5
+# class bank_account:
+#     def __init__(self, account_holder, balance):
+#         self.account_holder = account_holder
+#         self.balance = balance
+
+#     def deposit(self, amount):
+#         self.balance += amount
+#         print(f"Deposited {amount}. New balance: {self.balance}")
+    
+#     def withdraw(self, amount):
+#         if amount > self.balance:
+#             print("Insufficient money in your bank account.")
+#         else:
+#             self.balance -= amount
+#             print(f"Withdrew {amount}. New balance: {self.balance}")
+    
+# x = bank_account("Alice", 1000)
+# x.deposit(500)
+# x.withdraw(200)
