@@ -14,3 +14,8 @@ a.insert(2, 99)  # Inserts an element at the specified position in the list
 print(a)
 a.clear()  # Removes all elements from the list
 print(a)
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list1.extend(list2)
+print(list1)  # Output: [1, 2, 3, 4, 5, 6]
