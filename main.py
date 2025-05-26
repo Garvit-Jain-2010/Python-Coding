@@ -7,12 +7,18 @@ data = {
     "industry" : ["Automotive", "Technology", "Fashion & Retail", "Technology", "Finance & Investments"]
 }
 
-def tech_industry(data):
-    tech_people = []
-    for i in range(len(data["name"])):
-        if data["industry"][i] == "Technology":
-            tech_people.append(data["name"][i])
-    return tech_people
+# def tech_industry(data):
+#     tech_people = []
+#     for i in range(len(data["name"])):
+#         if data["industry"][i] == "Technology":
+#             tech_people.append(data["name"][i])
+#     return tech_people
 
-for person in tech_industry(data):
-    print(f"{person}")
+# for person in tech_industry(data):
+#     print(f"{person}")
+
+# tech_people = []
+# for i in range(len(data["name"])):
+#     if data["industry"][i] == "Technology":
+#         tech_people.append(data["name"][i])
+# print(tech_people)
