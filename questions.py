@@ -81,3 +81,21 @@
 #     for item in sublist:
 #         total += item
 # print(f"The total sum is: {total}")
+
+# 79
+# nested = [[1, 2], [3, 4], [1, 2], [5, 6]]
+# unique_nested = []
+# for sublist in nested:
+#     if sublist not in unique_nested:
+#         unique_nested.append(sublist)
+# print(unique_nested)
+
+# 81
+# list = [1, 2, 2, 3, 4, 2, 3, 1, 5]
+# s = set(list)
+# print(s)
+
+# 84
+# text = "I am Garvit Raj Jain"
+# words = text.split()
+# print(words)
