@@ -35,3 +35,25 @@ list3 = [3, 6, 2]
 
 common = list(set(list1) & set(list2) & set(list3))
 print(common)
+
+# 71
+nested = [[1, 2], [3, 4], [5, 6]]
+print(nested[1][0])
+
+# 72
+nested = [[1, 2], [3, 4], [5, 6]]
+
+for sublist in nested:
+    for item in sublist:
+        print(item)
+
+# 74
+nested = [[1, 8], [3, 4], [5, 6]]
+
+max_val = nested[0][0]
+for sublist in nested:
+    for item in sublist:
+        if item > max_val:
+            max_val = item
+
+print(max_val)
