@@ -60,6 +60,6 @@
 #     "gender":["male", "male", "male", "female", "male", "female", "male", "male", "female", "male"],
 # }
 
-def cube(x): 
-    return x**3
-print(list(map(cube, [1, 2, 3])))  # Output: [1, 8, 27
+# def cube(x): 
+#     return x**3
+# print(list(map(cube, [1, 2, 3])))

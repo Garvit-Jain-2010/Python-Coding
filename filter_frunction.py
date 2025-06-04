@@ -10,7 +10,6 @@
 # end = list(filter(lambda v: v.endswith(" Jain"), names))
 # print(end)
 
-nums = [4, 12, 9, 15, 8]
-greater_than_10 = list(filter(lambda x: x > 10, nums))
-print(greater_than_10)  # Output: [12, 15]
-
+# nums = [4, 12, 9, 15, 8]
+# greater_than_10 = list(filter(lambda x: x > 10, nums))
+# print(greater_than_10)
