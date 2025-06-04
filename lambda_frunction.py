@@ -33,3 +33,6 @@
 # students = [('John', 90), ('Jane', 85), ('Dave', 95)]
 # b = filter(lambda x: x[1] > 90, students)
 # print(b)
+
+reverse = lambda s: s[::-1]
+print(reverse("hello"))
