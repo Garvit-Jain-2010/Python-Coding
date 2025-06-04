@@ -13,3 +13,6 @@
 # nums = [4, 12, 9, 15, 8]
 # greater_than_10 = list(filter(lambda x: x > 10, nums))
 # print(greater_than_10)
+
+# data = [0, 1, '', 'hello', None, True]
+# print(list(filter(None, data)))
