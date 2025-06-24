@@ -20,12 +20,3 @@
 #         print(f"{a} is not a prime number.")
 # else:
 #         print(f"{a} is a prime number.")
-
-# # Program
-num = int(input("Enter a number: "))
-for i in range(2, num):
-    for j in range(2, num):
-        if i%j == 0:
-            break
-    else:
-            print(i)
