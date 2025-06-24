@@ -69,3 +69,16 @@
 # x = bank_account("Alice", 1000)
 # x.deposit(500)
 # x.withdraw(200)
+
+# 6
+# class Employee: 
+#     language = "Python"
+#     salary = 1200000
+
+# harry = Employee()
+# harry.name = "Harry"
+# print(harry.name, harry.language, harry.salary)
+
+# rohan = Employee()
+# rohan.name = "Rohan Roro Robinson"
+# print(rohan.name, rohan.salary, rohan.language)
